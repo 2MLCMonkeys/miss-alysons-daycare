@@ -13,16 +13,16 @@
     <title>Miss Alyson's Daycare</title>
     <!-- STYLESHEETS -->
     <link rel="stylesheet" type="test/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="test/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
 
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="assets/img/nav-image.png" class="img-fluid"></a>
+        <a class="navbar-brand" href="/home"><img src="assets/img/nav-image.png" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,10 +31,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">ABOUT</a>
+                    <a class="nav-link" href="/about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">NEWS</a>
+                    <a class="nav-link" href="/blog">NEWS</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -42,10 +42,10 @@
                         PERMISSION FORMS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="assets/pdf/Permission to photograph (1).pdf"
+                        <a class="dropdown-item" href="/PermissionToPhotograph"
                             target="_blank">PERMISSION TO PHOTOGRAPH</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="assets/pdf/Emergency Permission.pdf" target="_blank">EMERGENCY
+                        <a class="dropdown-item" href="/EmergencyPermission" target="_blank">EMERGENCY
                             PERMISSION</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">FIELD TRIPS</a>
@@ -57,35 +57,43 @@
                         ENROLLMENT
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="assets/pdf/Family Handbook.pdf" target="_blank">FAMILY
+                        <a class="dropdown-item" href="/FamilyHandbook" target="_blank">FAMILY
                             HANDBOOK</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="assets/pdf/Checklist For Childs First Day.pdf"
+                        <a class="dropdown-item" href="/ChecklistForChildsFirstDay"
                             target="_blank">FIRST DAY CHECKLIST</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="assets/pdf/Remind Ap form.pdf" target="_blank">SIGN UP FOR
+                        <a class="dropdown-item" href="/Remind" target="_blank">SIGN UP FOR
                             REMIND</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="assets/pdf/HBC NEW child form.pdf" target="_blank">HOMEBASE
+                        <a class="dropdown-item" href="/HBCNewChildForm" target="_blank">HOMEBASE
                             ENROLLMENT FORM (2 & UNDER)</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
+                    <a class="nav-link" href="/contact">CONTACT</a>
                 </li>
             </ul>
-            
         </div>
     </nav>
 
     <!-- JUMOBOTRON -->
     <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center">
-            <img src="assets/img/mad.png" width="50%" class="img-fluid " alt="miss-alysons-daycare">
-            <h1 class="display-4">WELCOME</h1>
-            <p class="lead">Miss Alysons Daycare</p>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Username</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </div>
     </div>
+
 </body>
 <!-- BOOTSTRAP SCRIPT  -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -97,5 +105,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+<script src="assets/js/server.js"></script>
 
 </html>
