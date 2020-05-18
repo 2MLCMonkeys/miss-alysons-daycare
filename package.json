@@ -1,0 +1,24 @@
+{
+  "name": "miss-alysons-daycare",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "assets/js/server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2MLCMonkeys/miss-alysons-daycare.git"
+  },
+  "author": "2mlcmonkeys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2MLCMonkeys/miss-alysons-daycare/issues"
+  },
+  "homepage": "https://github.com/2MLCMonkeys/miss-alysons-daycare#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
