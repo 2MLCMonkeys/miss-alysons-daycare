@@ -14,14 +14,14 @@
     <!-- STYLESHEETS -->
     <link rel="stylesheet" type="test/css" href="./public/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="test/css" href="./public/css/style.css">
 </head>
 
 <body>
 
     <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/home"><img src="./public/img/nav-image.png" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +42,8 @@
                         PERMISSION FORMS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/PermissionToPhotograph"
-                            target="_blank">PERMISSION TO PHOTOGRAPH</a>
+                        <a class="dropdown-item" href="/PermissionToPhotograph" target="_blank">PERMISSION TO
+                            PHOTOGRAPH</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="/EmergencyPermission" target="_blank">EMERGENCY
                             PERMISSION</a>
@@ -60,8 +60,8 @@
                         <a class="dropdown-item" href="/FamilyHandbook" target="_blank">FAMILY
                             HANDBOOK</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/ChecklistForChildsFirstDay"
-                            target="_blank">FIRST DAY CHECKLIST</a>
+                        <a class="dropdown-item" href="/ChecklistForChildsFirstDay" target="_blank">FIRST DAY
+                            CHECKLIST</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="/Remind" target="_blank">SIGN UP FOR
                             REMIND</a>
@@ -74,6 +74,9 @@
                     <a class="nav-link" href="/contact">CONTACT</a>
                 </li>
             </ul>
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="/admin">ADMIN</a>
+            </nav>
         </div>
     </nav>
 
@@ -83,9 +86,68 @@
             <img src="./public/img/mad.png" width="50%" class="img-fluid " alt="miss-alysons-daycare">
             <h1 class="display-4">CURRENT EVENTS AND NEWS</h1>
             <p class="lead">Miss Alysons Daycare</p>
-            <a href="/admin" class="lead">ADMIN LOGIN</p></a>
         </div>
     </div>
+
+    <!-- POSTS TO BLOG-->
+    <div class="container mb-5">
+        <div class="card text-center">
+            <h5 class="card-header">
+                COVID-19 UPDATES
+            </h5>
+            <div class="card-body">
+                <h5 class="card-title">New Guidelines for Miss Alyson's Daycare</h5>
+                <p class="card-text"> The Virginia
+                    Department of Social Services has prepared guidance and information to assist in this
+                    effort:</p>
+                <ul>
+                    <li>
+                        In Phase I, which is expected to begin Friday May 15, child care programs will
+                        continue to be required to implement social distancing strategies and limit
+                        capacity to 10 individuals per room, including staff. Please see the updated
+                        guidance document attached.
+                    </li>
+                    <li>
+                        To prepare for Phases II and III (where many more businesses will again be
+                        allowed to resume operations and we can expect the demand for child care to
+                        increase), the Virginia Department of Social Services is working with public
+                        health experts for advice on how to safely transition to traditional limitations on
+                        classrooms and other regulations. There is no set date for Phase II; the
+                        2
+                        Commonwealth will shift to fewer restrictions when public health data supports
+                        this action.
+                    </li>
+                    <li>
+                        Adherence to these public health guidelines will help prevent the spread of
+                        COVID-19 and, therefore, will facilitate the process of transitioning to later
+                        phases.
+                    </li>
+                </ul>
+                <p class="card-text">
+                    The safety and health of children, families, and staff is at the forefront of all we do. We
+                    acknowledge your desire to offer quality programming and maintain a sense of normalcy
+                    for children and families you serve. The Virginia Department of Social Services is
+                    working diligently to respond to the needs of children, families, and our providers while
+                    implementing guidelines that align with public health directives.
+                    We are grateful for the commitment you have shown to children and families as we
+                    navigate this changing landscape. Thank you for safely serving Virginia’s children and
+                    families at a time they need you the most. The Commonwealth has been able to sustain
+                    safe and accessible child care for children of essential personnel, and we are hopeful that
+                    as Virginia begins to shift into recovery from COVID-19, the children and families of
+                    Virginia can continue to count on you.
+                </p>
+                <a href="https://www.dss.virginia.gov/cc/covid-19.html" class="btn btn-primary">More Info</a>
+            </div>
+            <div class="card-footer text-muted">
+                May 13th, 2020
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <nav class="navbar sticky-bottom navbar-light bg-light border-top">
+        <a class="navbar-brand" href="#"></a>
+    </nav>
+
 </body>
 <!-- BOOTSTRAP SCRIPT  -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
