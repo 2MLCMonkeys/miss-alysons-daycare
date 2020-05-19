@@ -26,7 +26,7 @@ module.exports = function (app) {
     app.get("/blog", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/blog.html"));
     });
-
+ 
     // PDF FILES
 
     app.get("/PermissionToPhotograph", function (req, res) {
